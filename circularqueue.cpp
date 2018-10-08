@@ -17,7 +17,7 @@ struct Queue
         first = rear = -1;
     }
 
-    void enq(int num)
+    void enq(int number)
     {
         if(first == -1 && rear == -1) // empty queue
         {
